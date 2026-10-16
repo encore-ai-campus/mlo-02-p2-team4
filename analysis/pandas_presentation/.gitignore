@@ -1,0 +1,5 @@
+# Local extraction of bundled analysis data. The archive is the canonical upload.
+데이터/*.csv
+__pycache__/
+*.py[cod]
+.venv/
