@@ -466,6 +466,7 @@ python src/verify_export_comparison.py --original data/exports/KREAM_Final_Data_
 | 변환 SQL·정합성 검증 데이터 | `sql/repro/`, [검증 보고서](reports/validation_report.html), `reports/` |
 | 운영 분석·발표 시각화 | [분석 상세](docs/ANALYSIS.md), `assets/`, `reports/team_analysis/` |
 | Pandas 통계 집계·실행·시각화 | [코드·데이터·그래프·통계표·검증 안내](analysis/pandas_presentation/README.md) |
+| **최종 발표자료** | [KREAM 프로젝트 최종 발표자료 (PPTX)](presentation/KREAM_최종발표자료.pptx) |
 | 재현 근거 | [실행 안내](docs/REPRODUCE.md), [두 최종본 비교](evidence/export_comparison.json) |
 
 - `analysis/pandas_presentation/`: 팀원 Pandas 최종 실행 코드 11개·보조 코드·발표 그래프·통계표·실행 로그·재현용 압축 입력
@@ -478,6 +479,7 @@ python src/verify_export_comparison.py --original data/exports/KREAM_Final_Data_
 - `sql/archive/`: 작업 당시 원본 SQL 보관
 - `src/`: 프로파일링·검증·분석 재계산 코드
 - `visualization/pipeline/`: 기존 Gold 시각화 코드와 그래프
+- `presentation/`: KREAM 프로젝트 최종 발표자료 (PPTX)
 - `evidence/`: README 주장·첨부 자료·최종본 대조 근거
 
 HTML 보고서는 파일을 내려받아 브라우저에서 열면 볼 수 있습니다. GitHub에서는 Markdown 문서·CSV·SVG·PNG를 바로 확인할 수 있습니다. 원본 데이터와 대용량 최종 ZIP은 이 문서 묶음에 중복 수록하지 않았습니다.

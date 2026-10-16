@@ -6,13 +6,13 @@
   },
   {
     "path": "README.md",
-    "bytes": 34754,
-    "sha256": "831245cd8b212bea3cac3fbe1ba62ee06c98f20f19fb8db2a977bdd0a2b1029a"
+    "bytes": 34941,
+    "sha256": "cae935fbaa3355fd50ced91949f1b7303840bacd7157c05ebdceaebbd1eb2ec5"
   },
   {
     "path": "README_preview.html",
-    "bytes": 47032,
-    "sha256": "fe388134c641bd7ea08cb98c15d29c737d6b5bd3e71b38aa45f42f74b0c4b48e"
+    "bytes": 47320,
+    "sha256": "0602974cbc02146c99e7d0603db9dc27708b35690e3cf48d4d675d6f764eb456"
   },
   {
     "path": "START_HERE_NEW_REPO.md",
@@ -316,8 +316,8 @@
   },
   {
     "path": "analysis/pandas_presentation/코드/00_KREAM_전체_과제_및_부록_Pandas_통합본.py",
-    "bytes": 15362,
-    "sha256": "5c21be0b776480b76269855dfdf68487f026c2c2389675040f2a19e52a6055e7"
+    "bytes": 15355,
+    "sha256": "7bbda4ea194cbc22699c9b89c3b3dfb31654a8195e1fd29075ba61b36f0a677a"
   },
   {
     "path": "analysis/pandas_presentation/코드/01_과제1_외주팀_품질위험_1-2.py",
@@ -326,8 +326,8 @@
   },
   {
     "path": "analysis/pandas_presentation/코드/02_과제1_외주팀_품질위험_2-2.py",
-    "bytes": 1864,
-    "sha256": "940d0d9a76e3246b715da09dfd521353ca8f324b41c5492b02059e2d92264ce6"
+    "bytes": 1857,
+    "sha256": "30f0d6f9cf794d12dcfbee98b0f95c6837c3b9f4bf35ddbbc372a10a8b4ed0bf"
   },
   {
     "path": "analysis/pandas_presentation/코드/03_과제2_스니커즈팀_재검수부담_1-2.py",
@@ -593,6 +593,11 @@
     "path": "metadata/source_spec.txt",
     "bytes": 23847,
     "sha256": "a30f074268c31f617b350590e96154b77e27188f2d5ae898438d41d252fa161c"
+  },
+  {
+    "path": "presentation/KREAM_최종발표자료.pptx",
+    "bytes": 4095022,
+    "sha256": "f3c276cdfe8358eaa5fb01a1a7c0ab772ed4c8ed1d9122e381343a42e5df9dfe"
   },
   {
     "path": "reports/20261015_KREAM_Export_Validation.html",
