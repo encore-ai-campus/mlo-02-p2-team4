@@ -1,0 +1,28 @@
+{
+  "purpose": "팀원 Pandas 최종 실행본의 로컬 재실행 점검 (원본 저장 검증결과는 수정하지 않음)",
+  "source_saved_checks": 36,
+  "source_saved_failed": 0,
+  "independent_rerun_checks": 33,
+  "independent_rerun_failed": 0,
+  "skipped_due_to_unprovided_original_mysql_exports": [
+    "원천 보존 gold_inspection_workload_hourly_v1",
+    "원천 보존 silver_inspection_join_ready",
+    "원천 보존 silver_inspector_master"
+  ],
+  "reason": "원본 MySQL OUTFILE 3개는 팀원 패키지에 포함되지 않아, 해시 비교 가능 시에만 작동하도록 작성된 조건부 원천 보존 검사는 실행되지 않음. 제공된 분석용 CSV 사본 해시 검사는 통과.",
+  "inputs": [
+    "clean_kream_inspection_joined.csv",
+    "inspector_master.csv",
+    "valid_workload_counts.csv"
+  ],
+  "charts_png": 10,
+  "charts_svg": 10,
+  "result_table_csv": 18,
+  "python_version": "3.13.5",
+  "note": "독립 재실행은 제공된 CSV 사본·별도 임시 경로에서 수행함. MySQL 전체 파이프라인 재실행이 아님. pandas / matplotlib 버전이 requirements 고정 버전과 다를 수 있음.",
+  "environment": {
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5"
+  }
+}
