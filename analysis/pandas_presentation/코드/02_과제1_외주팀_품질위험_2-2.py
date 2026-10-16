@@ -17,7 +17,7 @@ df_q1 = df[
     (df['INSP_DONE_DT'] <= '2026-08-31 23:59:59')
 ].copy()
 
-# 2. [헤드라인 통계] 10분 미만 졸속 검수 비중 비교 (외주팀 vs 타 부서)
+# 2. [헤드라인 통계] 10분 미만 검수 비중 비교 (외주팀 vs 타 부서)
 df_q1['UNDER_10MIN'] = df_q1['INSP_DURATION_MIN'] < 10
 is_outsource = df_q1['INSPECTOR_DEPT_NM'] == '외주야간검수팀'
 
